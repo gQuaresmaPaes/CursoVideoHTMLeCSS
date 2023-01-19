@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imagens dinamicas</title>
+    <title>Mídias em HTML5</title>
 </head>
 <body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir esse site em vários disositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 850px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo audios</h1>
+    <p>Vamos aprender a reproduzir audios em HTML5.</p>
+    <audio preload="metadata" controls loop>
+        <source src="midias/Ice & Fire - King Canyon.mp3" type="audio/mpeg">
+        <source src="midias/Ice & Fire - King Canyon.ogg" type="audio/ogg"> <!--Apenas exemplos-->
+        <source src="midias/Ice & Fire - King Canyon.wav" type="audio/wav"> <!--Apenas exemplos-->
+        <p>Infelizmente seu navegador não consegue reproduzir audio. <br>
+        <a href="midias/Ice & Fire - King Canyon.mp3">clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
     
 </body>
 </html>
