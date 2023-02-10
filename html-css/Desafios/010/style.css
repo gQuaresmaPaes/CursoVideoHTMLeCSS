@@ -47,11 +47,14 @@ nav > a:hover {
 }
 
 main {
-    padding: 0px 10px;
-    align-items: center;
     margin: auto;
     background-color: white;
     width: 60%;
+}
+
+div.tela{
+    padding: 0px 10px;
+    align-items: center;
 }
 
 div > h1 {
@@ -83,4 +86,53 @@ p {
     font-family: idroid;
     font-size: 1em;
     color: #09952a;
+}
+
+#video {
+    background-image: linear-gradient(90deg, green, rgb(53, 134, 53));
+}
+
+#video > iframe {
+    padding: 15px 20px 15px 20px;
+    width: 90%;
+}
+
+#quadro {
+    margin-top: 3%;
+    margin-right: 5px;
+    margin-bottom: 3%;
+    margin-left: 5px;   
+    padding: 5px 0px;
+    width: 100%;
+    background-color: #46b7615f;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.350);
+    
+}
+
+h3 {
+    margin: 0px;
+    background-color: #039a26ab;
+    padding: 0px;
+    color: white;
+    width: 100%;
+    text-indent: 5px;
+}
+
+ul{
+    font-size: smaller;
+    width: 90%;
+    padding: 5px 10px 20px 10px ;
+}
+
+footer {
+    background-color: #09952a;
+    text-align: center;
+    color: white;
+    height: 30px;
+    border: 0px;
+    margin: 0px;
+}
+
+footer > p {
+    padding: 8px;
 }
